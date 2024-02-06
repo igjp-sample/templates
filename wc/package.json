@@ -20,10 +20,11 @@
     "webpack-dev-server": "^4.13.1"
   },
   "dependencies": {
-    "@infragistics/igniteui-webcomponents-grids": "^4.2.5",
+    "@infragistics/igniteui-webcomponents-core": "^4.7.0",
+    "@infragistics/igniteui-webcomponents-grids": "^4.7.0",
     "@lit/reactive-element": "1.6.1",
     "@webcomponents/custom-elements": "^1.5.1",
-    "igniteui-webcomponents": "^4.2.2",
+    "igniteui-webcomponents": "^4.7.0",
     "lit-html": "^2.0.0"
   }
 }
