@@ -11,10 +11,18 @@ npm ci
 npm start
 ```
 
-## Create a new Ignite UI for React project with the IgrGrid component
+## Create a new Ignite UI for React project
+
+### with the IgrGrid component
 
 ```bash
 npx degit igjp-sample/templates/react/grid
+```
+
+### with the IgrDockManager component
+
+```bash
+npx degit igjp-sample/templates/react/dockmanager
 ```
 
 Once you have completed the previous steps, you can restore packages and run the project by executing the following commands.
