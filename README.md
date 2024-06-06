@@ -25,6 +25,12 @@ npx degit igjp-sample/templates/react/grid
 npx degit igjp-sample/templates/react/dockmanager
 ```
 
+### with the IgrSpreadsheet component
+
+```bash
+npx degit igjp-sample/templates/react/spreadsheet
+```
+
 Once you have completed the previous steps, you can restore packages and run the project by executing the following commands.
 
 ```bash
