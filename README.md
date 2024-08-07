@@ -1,14 +1,17 @@
 ## Create a new Ignite UI for WebComponents project
 
-```bash
-npx degit igjp-sample/templates/wc
-```
+| Included component | Command                                            |
+| ------------------ | -------------------------------------------------- |
+| IgcGrid            | `npx degit igjp-sample/templates/wc/grid`          |
+| IgcDockManager     | `npx degit igjp-sample/templates/wc/dockmanager`   |
+| IgcSpreadsheet     | `npx degit igjp-sample/templates/wc/spreadsheet`   |
+| IgcCategoryChart   | `npx degit igjp-sample/templates/wc/categorychart` |
 
 Once you have completed the previous steps, you can restore packages and run the project by executing the following commands.
 
 ```bash
 npm ci
-npm start
+npm run dev
 ```
 
 ## Create a new Ignite UI for React project
@@ -24,5 +27,5 @@ Once you have completed the previous steps, you can restore packages and run the
 
 ```bash
 npm ci
-npm start
+npm run dev
 ```

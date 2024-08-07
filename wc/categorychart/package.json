@@ -1,0 +1,20 @@
+{
+  "name": "igniteui-webcomponents-app1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "@infragistics/igniteui-webcomponents-charts": "^4.8.1",
+    "@infragistics/igniteui-webcomponents-core": "^4.8.1"
+  }
+}

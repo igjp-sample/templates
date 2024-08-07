@@ -1,0 +1,19 @@
+{
+  "name": "igniteui-webcomponents-app1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "@infragistics/igniteui-dockmanager": "^1.14.4"
+  }
+}
