@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { App } from "./app/app";
 
-import "@infragistics/igniteui-react-grids/grids";
+import "@infragistics/igniteui-react-grids/grids/combined.js";
 import "@infragistics/igniteui-react-grids/grids/themes/light/bootstrap.css";
 
 import { IgrGridModule } from "@infragistics/igniteui-react-grids";
