@@ -1,4 +1,4 @@
-import { DisplayDensity, IgrColumn, IgrGrid } from "@infragistics/igniteui-react-grids";
+import { IgrColumn, IgrGrid } from "@infragistics/igniteui-react-grids";
 
 const sampleData = [
   { id: 1, name: "John", country: "USA", age: 37 },
@@ -10,7 +10,7 @@ const sampleData = [
 export const App = () => {
   return (
     <div style={{ maxWidth: "600px", margin: "24px auto" }}>
-      <IgrGrid data={sampleData} primaryKey="id" width="100%" height="300px" displayDensity={DisplayDensity.Cosy}>
+      <IgrGrid data={sampleData} primaryKey="id" width="100%" height="300px" style={{ "--ig-size": "var(--ig-size-small)" }}>
         <IgrColumn field="name" header="Name" />
         <IgrColumn field="country" header="Country" />
         <IgrColumn field="age" header="Age" />
