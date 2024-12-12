@@ -10,11 +10,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.3.4"
+    "typescript": "^5.6.2",
+    "vite": "^6.0.1"
   },
   "dependencies": {
-    "@infragistics/igniteui-webcomponents-charts": "^4.8.1",
-    "@infragistics/igniteui-webcomponents-core": "^4.8.1"
+    "@infragistics/igniteui-webcomponents-charts": "^5.1.0",
+    "@infragistics/igniteui-webcomponents-core": "^5.1.0"
   }
 }
