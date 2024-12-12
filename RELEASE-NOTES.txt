@@ -1,0 +1,7 @@
+2024-12-12
+- WebComponents: Update package versions
+  - Vite 5.3.4 to 6.0.1
+  - TypeScript 5.2.2 to 5.6.2
+  - Ignite UI for WebComponents 4.8.1 to 5.1.0
+  - Dock Manager 1.14.4 to 1.15.2
+  

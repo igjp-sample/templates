@@ -29,3 +29,7 @@ Once you have completed the previous steps, you can restore packages and run the
 npm ci
 npm run dev
 ```
+
+## Release Notes
+
+The release notes is [here.](RELEASE-NOTES.txt)
