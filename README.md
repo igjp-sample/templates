@@ -30,6 +30,19 @@ npm ci
 npm run dev
 ```
 
+## Create a new Ignite UI for Angular project
+
+| Included component | Command                                   |
+| ------------------ | ----------------------------------------- |
+| IgxGrid            | `npx degit igjp-sample/templates/ng/grid` |
+
+Once you have completed the previous steps, you can restore packages and run the project by executing the following commands.
+
+```bash
+npm ci
+npm run dev
+```
+
 ## Release Notes
 
 The release notes is [here.](RELEASE-NOTES.txt)
