@@ -32,9 +32,10 @@ npm run dev
 
 ## Create a new Ignite UI for Angular project
 
-| Included component | Command                                   |
-| ------------------ | ----------------------------------------- |
-| IgxGrid            | `npx degit igjp-sample/templates/ng/grid` |
+| Included component | Command                                            |
+| ------------------ | -------------------------------------------------- |
+| IgxGrid            | `npx degit igjp-sample/templates/ng/grid`          |
+| IgcDockManager     | `npx degit igjp-sample/templates/ng/dockmanager`   |
 
 Once you have completed the previous steps, you can restore packages and run the project by executing the following commands.
 
