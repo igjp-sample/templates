@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@infragistics/igniteui-react": "18.7.4",
-    "@infragistics/igniteui-react-core": "18.7.4",
-    "@infragistics/igniteui-react-grids": "18.7.4",
+    "@infragistics/igniteui-react": "^18.9.0",
+    "@infragistics/igniteui-react-core": "^18.9.0",
+    "@infragistics/igniteui-react-grids": "^18.9.0",
     "functions-have-names": "^1.2.3",
     "react": "^18.3.1",
     "react-app-polyfill": "^3.0.0",
