@@ -9,7 +9,7 @@ import { IgrGridModule } from "@infragistics/igniteui-react-grids";
 
 declare module "react" {
   interface CSSProperties {
-    "--ig-size"?: "var(--ig-size-samll)" | "var(--ig-size-medium)" | "var(--ig-size-large)";
+    "--ig-size"?: "var(--ig-size-small)" | "var(--ig-size-medium)" | "var(--ig-size-large)";
   }
 }
 
