@@ -1,3 +1,6 @@
+2025-06-12
+- Angular: Update templates for Angular v.20
+
 2025-01-16
 - Add new template for a grid component of Ignite UI Angular
 

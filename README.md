@@ -34,6 +34,7 @@ npm run dev
 
 | Included component | Command                                            |
 | ------------------ | -------------------------------------------------- |
+| (no components)    | `npx degit igjp-sample/templates/ng/empty`         |
 | IgxGrid            | `npx degit igjp-sample/templates/ng/grid`          |
 | IgcDockManager     | `npx degit igjp-sample/templates/ng/dockmanager`   |
 
