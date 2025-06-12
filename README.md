@@ -2,6 +2,7 @@
 
 | Included component | Command                                            |
 | ------------------ | -------------------------------------------------- |
+| (no components)    | `npx degit igjp-sample/templates/wc/empty`         |
 | IgcGrid            | `npx degit igjp-sample/templates/wc/grid`          |
 | IgcDockManager     | `npx degit igjp-sample/templates/wc/dockmanager`   |
 | IgcSpreadsheet     | `npx degit igjp-sample/templates/wc/spreadsheet`   |

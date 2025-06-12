@@ -1,6 +1,7 @@
 2025-06-12
 - Angular: Update templates for Angular v.20
 - React: Update templates for React v.19
+- WebComponents: Update templates for WebComponents v.6
 
 2025-01-16
 - Add new template for a grid component of Ignite UI Angular
