@@ -39,7 +39,7 @@ export const App = () => {
   }, []);
 
   return (
-    <div style={{ maxWidth: "800px", height: "480px", margin: "24px auto" }}>
+    <div style={{ maxWidth: 600, height: 480, padding: 24, margin: "auto", display: "flex", flexDirection: "column", gap: 24 }}>
       <igc-dockmanager ref={dockManagerRef}>
         <div slot="content1">Content 1</div>
         <div slot="content2">Content 2</div>

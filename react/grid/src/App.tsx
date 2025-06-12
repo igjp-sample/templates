@@ -9,7 +9,7 @@ const sampleData = [
 
 export const App = () => {
   return (
-    <div style={{ maxWidth: "600px", margin: "24px auto" }}>
+    <div style={{ maxWidth: 600, padding: 24, margin: "auto", display: "flex", flexDirection: "column", gap: 24 }}>
       <IgrGrid data={sampleData} primaryKey="id" width="100%" height="300px" style={{ "--ig-size": "var(--ig-size-small)" }}>
         <IgrColumn field="name" header="Name" />
         <IgrColumn field="country" header="Country" />

@@ -1,19 +1,25 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { App } from "./app/app";
-
+import { App } from "./App.tsx";
 import { defineCustomElements } from "@infragistics/igniteui-dockmanager/loader";
+import type { IgcDockManagerComponent } from "@infragistics/igniteui-dockmanager";
 
-/* eslint-disable */
-declare global {
+declare module "react" {
+  interface CSSProperties {
+    "--ig-size"?: "var(--ig-size-small)" | "var(--ig-size-medium)" | "var(--ig-size-large)";
+  }
+}
+
+// Add custom element type for JSX
+declare module "react/jsx-runtime" {
   namespace JSX {
-    // tslint:disable-next-line:interface-name
     interface IntrinsicElements {
-      "igc-dockmanager": any;
+      "igc-dockmanager": React.DetailedHTMLProps<React.HTMLAttributes<IgcDockManagerComponent>, IgcDockManagerComponent> & {
+        ref?: React.Ref<IgcDockManagerComponent>;
+      };
     }
   }
 }
-/* eslint-enable */
 
 defineCustomElements();
 
