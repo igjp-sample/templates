@@ -1,4 +1,6 @@
 import "./style.css";
+import "igniteui-webcomponents/themes/light/bootstrap.css";
+
 import { ModuleManager } from "@infragistics/igniteui-webcomponents-core";
 import { IgcCategoryChartComponent, IgcCategoryChartModule } from "@infragistics/igniteui-webcomponents-charts";
 

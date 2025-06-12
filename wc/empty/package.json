@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@infragistics/igniteui-webcomponents-core": "^6.0.0",
-    "@infragistics/igniteui-webcomponents-spreadsheet": "^6.0.0",
+    "@webcomponents/custom-elements": "^1.6.0",
     "igniteui-webcomponents": "^6.0.1"
   }
 }

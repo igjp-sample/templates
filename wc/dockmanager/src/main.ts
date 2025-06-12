@@ -1,4 +1,5 @@
 import "./style.css";
+import "igniteui-webcomponents/themes/light/bootstrap.css";
 import { defineCustomElements } from "@infragistics/igniteui-dockmanager/loader";
 import { IgcDockManagerPaneType, IgcSplitPaneOrientation, IgcDockManagerComponent } from "@infragistics/igniteui-dockmanager";
 
