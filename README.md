@@ -18,6 +18,7 @@ npm run dev
 
 | Included component | Command                                               |
 | ------------------ | ----------------------------------------------------- |
+| (no components)    | `npx degit igjp-sample/templates/react/empty`         |
 | IgrGrid            | `npx degit igjp-sample/templates/react/grid`          |
 | IgrDockManager     | `npx degit igjp-sample/templates/react/dockmanager`   |
 | IgrSpreadsheet     | `npx degit igjp-sample/templates/react/spreadsheet`   |
